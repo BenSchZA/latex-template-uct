@@ -1,0 +1,64 @@
+\newcommand{\homedir}{/home/bscholtz/workspace/workspace-latex/templates/BasicTemplateUCT/}
+
+%######################Preamble######################
+\input{"\homedir preamble.tex"}
+
+\newcommand{\coursecode}{EEE4XXXX}
+\newcommand{\assignment}{Assignment One}
+\newcommand{\lecturer}{Prof. Ed Boje}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{SCHBEN011}
+\lhead{Benjamin Scholtz}
+\cfoot{\thepage}
+
+\begin{document}
+
+%######################Title Page######################
+\input{"\homedir title-page.tex"}
+
+%######################Contents######################
+
+\newpage
+%\section*{Contents}
+%\addcontentsline{toc}{section}{Contents}  
+\tableofcontents
+
+%######################Plagiarism Dec.######################
+\input{"\homedir plagiarism-declaration.tex"}
+
+%######################Begin Content######################
+\newpage
+
+%\begin{figure}[H]
+%\begin{center}
+%\includegraphics[scale=0.13,trim={0cm 0cm 0cm 0cm},clip]{images/system.jpg}
+%\caption{Lab system overview.}
+%\label{Label}
+%\end{center}
+%\end{figure}
+
+%\begin{minted}[linenos=true]{matlab}
+%\end{minted}
+
+%######################References######################
+\newpage
+%\input{"\homedir references.tex"} %manual references
+
+\bibliography{bibliography}
+\bibliographystyle{ieeetran}
+\addcontentsline{toc}{section}{References}
+
+
+%######################Appendices######################
+\newpage
+\section*{Appendices}
+\subsection*{Appendix A: Contributions}
+\addcontentsline{toc}{section}{Appendix A: Contributions}
+\subsection*{Appendix B: Progress Reports}
+\addcontentsline{toc}{section}{Appendix B: Progress Reports}
+
+\end{document}
+
+%----------------------------------------------------------------------------
