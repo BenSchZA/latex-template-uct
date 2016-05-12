@@ -1,0 +1,43 @@
+%######################Document Setup######################
+\documentclass[a4paper, 12pt, titlepage, twoside]{article}
+
+\usepackage{lipsum}
+\usepackage[page]{appendix}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{anysize}
+\usepackage[hidelinks]{hyperref}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{pdfpages}
+\usepackage{minted}
+\usepackage{amsmath}
+\usepackage[UKenglish]{isodate}% http://ctan.org/pkg/isodate
+\usepackage{amsfonts}
+\usepackage{cite}
+\usepackage{tocbibind} 
+\usepackage{microtype}
+\usepackage{subcaption} %have subfigures
+\usepackage[hidelinks]{hyperref} %hyperlinks in pdf
+\DeclareGraphicsExtensions{.pdf,.png,.jpg,.eps} %can just give images' names
+\usepackage{amsmath} %a way to typeset maths
+\usepackage{amssymb} %able to type maths symbols
+\usepackage{textcomp} %so we can use \textdegree to get degree symbol
+\usepackage[english]{babel} %english-specific charaters and language rules
+\usepackage{url} %type urls
+
+\usepackage{pgfplots}
+\usepackage{tikz}
+
+\usepackage{xcolor}
+\hypersetup{
+    colorlinks,
+    linkcolor={black!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
+
+\marginsize{30mm}{30mm}{30mm}{30mm}
+%\setlength{\parindent}{0pt}
+%\setlength{\parskip}{12pt}
+%\usepackage[parfill]{parskip}
