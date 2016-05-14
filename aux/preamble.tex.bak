@@ -3,15 +3,19 @@
 
 \usepackage{lipsum}
 \usepackage[page]{appendix}
-\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage{charter}
+%\usepackage{lmodern}
+%\renewcommand*{\familydefault}{AdobeCaslonPro}
+\usepackage{afterpage}
 \usepackage{graphicx}
 \usepackage{anysize}
 \usepackage[hidelinks]{hyperref}
 \usepackage{float}
 \usepackage{fancyhdr}
+\usepackage{lastpage} % enables \pageref{LastPage}
 \usepackage{pdfpages}
 \usepackage{minted}
-\usepackage{amsmath}
 \usepackage[UKenglish]{isodate}% http://ctan.org/pkg/isodate
 \usepackage{amsfonts}
 \usepackage{cite}
@@ -41,3 +45,23 @@
 %\setlength{\parindent}{0pt}
 %\setlength{\parskip}{12pt}
 %\usepackage[parfill]{parskip}
+
+\usepackage{titlesec}
+\titleformat{\section}{\scshape\Large}{\thesection\quad}{0.5em}{}
+\titlelabel{\thesubsection\quad}
+\titlelabel{\thesubsubsection\quad}
+
+%\titleformat{\section}[block]
+%{\normalfont\sffamily}
+%{\thesection}{.5em}{\titlerule\\[.8ex]\bfseries}
+
+%\titleformat{\section}[block]
+%{\filcenter\large
+%\addtolength{\titlewidth}{2pc}%
+%\titleline*[c]{\titlerule*[.6pc]{\tiny\textbullet}}%
+%\addvspace{6pt}%
+%\normalfont\sffamily}
+%{\thesection}{1em}{}
+%\titlespacing{\section}
+%{5pc}{*2}{*2}[5pc]
+

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2016.5.12)  12 MAY 2016 11:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2016.5.12)  12 MAY 2016 22:59
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -32,6 +32,41 @@ Package: appendix 2009/09/02 v1.2b extra appendix facilities
 \c@@pps=\count88
 \c@@ppsavesec=\count89
 \c@@ppsaveapp=\count90
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
@@ -209,6 +244,9 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \f@ncyO@olf=\skip51
 \f@ncyO@orf=\skip52
 )
+(/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2013/01/28 v1.2l Refers to last page's name (HMM; JPG)
+)
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2013/08/25 v0.4v Insert pages of external PDF documents (AM)
 
@@ -293,69 +331,11 @@ runsystem(which pygmentize && touch preamble.aex)...executed.
 
 runsystem(rm preamble.aex)...executed.
 
- (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip56
-For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks19
-\ex@=\dimen115
-))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen116
-)
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 1999/12/14 v2.01 operator names
-)
-\inf@bad=\count111
-LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count112
-\leftroot@=\count113
-LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count114
-\DOTSCASE@=\count115
-LaTeX Info: Redefining \ldots on input line 378.
-LaTeX Info: Redefining \dots on input line 381.
-LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box32
-\strutbox@=\box33
-\big@size=\dimen117
-LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count116
-\c@MaxMatrixCols=\count117
-\dotsspace@=\muskip11
-\c@parentequation=\count118
-\dspbrk@lvl=\count119
-\tag@help=\toks20
-\row@=\count120
-\column@=\count121
-\maxfields@=\count122
-\andhelp@=\toks21
-\eqnshift@=\dimen118
-\alignsep@=\dimen119
-\tagshift@=\dimen120
-\tagwidth@=\dimen121
-\totwidth@=\dimen122
-\lineht@=\dimen123
-\@envbody=\toks22
-\multlinegap=\skip57
-\multlinetaggap=\skip58
-\mathdisplay@stack=\toks23
-LaTeX Info: Redefining \[ on input line 2665.
-LaTeX Info: Redefining \] on input line 2666.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/isodate/isodate.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/isodate/isodate.sty
 Package: isodate 2010/01/03 v2.30 Print dates with different formats (HH)
-
 (/usr/share/texlive/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count123
+\c@su@anzahl=\count111
 )
 (/usr/share/texlive/texmf-dist/tex/latex/isodate/english.idf
 File: english.idf 2010/01/03 v2.30 Language definitions for isodate package (HH
@@ -363,16 +343,17 @@ File: english.idf 2010/01/03 v2.30 Language definitions for isodate package (HH
 
 Define commands for English date format
 )
-\c@iso@tmpmonth=\count124
-\c@iso@yeartwo=\count125
-\c@iso@slash=\count126
-\c@iso@minus=\count127
-\c@iso@dot=\count128
-\c@iso@@slash=\count129
-\c@iso@@minus=\count130
-\c@iso@@dot=\count131
+\c@iso@tmpmonth=\count112
+\c@iso@yeartwo=\count113
+\c@iso@slash=\count114
+\c@iso@minus=\count115
+\c@iso@dot=\count116
+\c@iso@@slash=\count117
+\c@iso@@minus=\count118
+\c@iso@@dot=\count119
 ) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks19
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
@@ -392,19 +373,19 @@ Package tocbibind Note: Using section or other style headings.
 
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
-\MT@toks=\toks24
-\MT@count=\count132
+\MT@toks=\toks20
+\MT@count=\count120
 LaTeX Info: Redefining \textls on input line 766.
-\MT@outer@kern=\dimen124
+\MT@outer@kern=\dimen115
 LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
-\MT@listname@count=\count133
+\MT@listname@count=\count121
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 915.
 LaTeX Info: Redefining \lslig on input line 915.
-\MT@outer@space=\skip59
+\MT@outer@space=\skip56
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -420,20 +401,78 @@ Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen125
-\captionmargin@=\dimen126
-\captionwidth=\dimen127
-\caption@tempdima=\dimen128
-\caption@indent=\dimen129
-\caption@parindent=\dimen130
-\caption@hangindent=\dimen131
+\captionmargin=\dimen116
+\captionmargin@=\dimen117
+\captionwidth=\dimen118
+\caption@tempdima=\dimen119
+\caption@indent=\dimen120
+\caption@parindent=\dimen121
+\caption@hangindent=\dimen122
 )
-\c@ContinuedFloat=\count134
+\c@ContinuedFloat=\count122
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 )
-\c@subfigure=\count135
-\c@subtable=\count136
+\c@subfigure=\count123
+\c@subtable=\count124
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip57
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks21
+\ex@=\dimen123
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen124
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count125
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count126
+\leftroot@=\count127
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count128
+\DOTSCASE@=\count129
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box32
+\strutbox@=\box33
+\big@size=\dimen125
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count130
+\c@MaxMatrixCols=\count131
+\dotsspace@=\muskip11
+\c@parentequation=\count132
+\dspbrk@lvl=\count133
+\tag@help=\toks22
+\row@=\count134
+\column@=\count135
+\maxfields@=\count136
+\andhelp@=\toks23
+\eqnshift@=\dimen126
+\alignsep@=\dimen127
+\tagshift@=\dimen128
+\tagwidth@=\dimen129
+\totwidth@=\dimen130
+\lineht@=\dimen131
+\@envbody=\toks24
+\multlinegap=\skip58
+\multlinetaggap=\skip59
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -542,7 +581,7 @@ Package: pgfplots 2014/02/28 v1.10 Data Visualization (1.10-2-gb39fe75)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks25
+\pgfutil@everybye=\toks26
 \pgfutil@tempdima=\dimen133
 \pgfutil@tempdimb=\dimen134
 
@@ -563,12 +602,12 @@ Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
 Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks26
-\pgfkeys@temptoks=\toks27
+\pgfkeys@pathtoks=\toks27
+\pgfkeys@temptoks=\toks28
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
 ex
-\pgfkeys@tmptoks=\toks28
+\pgfkeys@tmptoks=\toks29
 ))
 \pgf@x=\dimen135
 \pgf@y=\dimen136
@@ -584,9 +623,9 @@ ex
 \c@pgf@countb=\count139
 \c@pgf@countc=\count140
 \c@pgf@countd=\count141
-\t@pgf@toka=\toks29
-\t@pgf@tokb=\toks30
-\t@pgf@tokc=\toks31
+\t@pgf@toka=\toks30
+\t@pgf@tokb=\toks31
+\t@pgf@tokc=\toks32
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
@@ -619,9 +658,9 @@ Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
 \pgfmath@dimen=\dimen143
 \pgfmath@count=\count144
 \pgfmath@box=\box35
-\pgfmath@toks=\toks32
-\pgfmath@stack@operand=\toks33
-\pgfmath@stack@operation=\toks34
+\pgfmath@toks=\toks33
+\pgfmath@stack@operand=\toks34
+\pgfmath@stack@operation=\toks35
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
@@ -760,8 +799,8 @@ Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen170
 \pgffor@skip=\dimen171
-\pgffor@stack=\toks35
-\pgffor@toks=\toks36
+\pgffor@stack=\toks36
+\pgffor@toks=\toks37
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
@@ -801,9 +840,9 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks37
-\t@pgfplots@tokb=\toks38
-\t@pgfplots@tokc=\toks39
+\t@pgfplots@toka=\toks38
+\t@pgfplots@tokb=\toks39
+\t@pgfplots@tokc=\toks40
 \pgfplots@tmpa=\dimen179
 \c@pgfplots@coordindex=\count157
 \c@pgfplots@scanlineindex=\count158
@@ -830,7 +869,7 @@ x.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
 d.code.tex
 \c@pgfplotstable@counta=\count160
-\t@pgfplotstable@a=\toks40
+\t@pgfplotstable@a=\toks41
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
 .code.tex)
@@ -903,7 +942,21 @@ de.tex
 File: pgflibraryplotmarks.code.tex 2013/07/20 v3.0.0 (rcs-revision 1.13)
 )))
 Package hyperref Info: Option `colorlinks' set `true' on input line 38.
+ (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+\ttl@box=\box46
+\beforetitleunit=\skip60
+\aftertitleunit=\skip61
+\ttl@plus=\dimen193
+\ttl@minus=\dimen194
+\ttl@toksa=\toks42
+\titlewidth=\dimen195
+\titlewidthlast=\dimen196
+\titlewidthfirst=\dimen197
 )
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/block.tss
+File: block.tss 2011/12/15
+))
 ! Emergency stop.
 <*> preamble.tex
                 
@@ -911,10 +964,10 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 38.
 
  
 Here is how much of TeX's memory you used:
- 28775 strings out of 494213
- 650453 string characters out of 6157772
- 979285 words of memory out of 5000000
- 31624 multiletter control sequences out of 15000+600000
+ 29072 strings out of 494213
+ 654510 string characters out of 6157772
+ 981352 words of memory out of 5000000
+ 31904 multiletter control sequences out of 15000+600000
  3938 words of font info for 15 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
  62i,0n,76p,721b,609s stack positions out of 5000i,500n,10000p,200000b,80000s

@@ -1,7 +1,7 @@
 \newcommand{\homedir}{/home/bscholtz/workspace/workspace-latex/templates/latex-template-uct/}
 
 %######################Preamble######################
-\input{"aux/preamble.tex"}
+\input{aux/preamble.tex}
 
 \newcommand{\coursecode}{EEE4XXXX}
 \newcommand{\assignment}{Assignment One}
@@ -10,36 +10,54 @@
 \begin{document}
 
 %######################Title Page######################
-\input{"aux/title-page.tex"}
+\input{aux/title-page.tex}
+\pagenumbering{arabic}
+
+%######################Plagiarism Dec.######################
+\newpage
+%\pagenumbering{roman} 
+\input{aux/plagiarism-declaration.tex}
+
+%######################Abstract&Ack.######################
+\newpage
+\input{aux/abstract.tex}
+\newpage
+\afterpage{\null\newpage}
+\input{aux/acknowledgements.tex}
 
 %######################Contents######################
 \newpage
-\pagenumbering{gobble}
 %\section*{Contents}
 %\addcontentsline{toc}{section}{Contents}  
 \tableofcontents
 
-\pagenumbering{roman} 
-%######################Plagiarism Dec.######################
-\input{"aux/plagiarism-declaration.tex"}
+%######################Figures&Tables######################
+\newpage
+\listoffigures
+
+\newpage
+\listoftables
 
 %######################Begin Content######################
 \newpage
-\pagenumbering{arabic}
+%\pagenumbering{arabic}
 
-\renewcommand{\sectionmark}[1]{\markboth{#1}{}}
 \pagestyle{fancy}
 \fancyhf{}
-\lhead{\bfseries\nouppercase{\leftmark}}
-\rhead{\bfseries\nouppercase{\thepage}}
-\renewcommand{\headrulewidth}{0pt}
-\cfoot{\bfseries\thepage}
+\fancyhead[LE]{\textit{\nouppercase{\leftmark}}}
+\fancyhead[RO]{\textit{\nouppercase{\leftmark}}}
+\fancyhead[RE]{\textit{\nouppercase{\thepage}}}
+\fancyhead[LO]{\textit{\nouppercase{\thepage}}}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{0pt}
 
 
-
-\section{Section One}
+\section{Section}
 Test.\cite[p. 215]{control}
+
 \lipsum
+
+\newpage
 \subsection{Sub-Section}
 \subsubsection{Sub-sub-Section}
 
@@ -51,21 +69,17 @@ Test.\cite[p. 215]{control}
 %\end{center}
 %\end{figure}
 
-%\begin{minted}[linenos=true]{matlab}
-%\end{minted}
-
 %######################References######################
 \newpage
-\pagestyle{empty}
 \bibliography{bibliography}
 \bibliographystyle{ieeetran}
-\addcontentsline{toc}{section}{References}
 
 
 %######################Appendices######################
 \newpage
 \pagestyle{empty}
-\pagenumbering{gobble}
+\section*{Appendices}
+\addcontentsline{toc}{section}{Appendices}  
 \appendix
 \section{Benjamin}
 \section{Test}

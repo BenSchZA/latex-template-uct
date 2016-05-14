@@ -1,11 +1,15 @@
 \select@language {english}
 \select@language {english}
-\contentsline {section}{Contents}{i}{section*.1}
-\contentsline {section}{\numberline {1}Plagiarism Declaration}{ii}{section.1}
-\contentsline {section}{\numberline {2}Section One}{1}{section.2}
-\contentsline {subsection}{\numberline {2.1}Sub-Section}{2}{subsection.2.1}
-\contentsline {subsubsection}{\numberline {2.1.1}Sub-sub-Section}{2}{subsubsection.2.1.1}
-\contentsline {section}{References}{3}{section*.2}
-\contentsline {section}{References}{3}{section*.2}
-\contentsline {section}{\numberline {A}Benjamin}{}{appendix.A}
-\contentsline {section}{\numberline {B}Test}{}{appendix.B}
+\contentsline {section}{Plagiarism Declaration}{1}{Doc-Start}
+\contentsline {section}{Abstract}{2}{Item.4}
+\contentsline {section}{Acknowledgements}{3}{Item.4}
+\contentsline {section}{Contents}{5}{Item.4}
+\contentsline {section}{List of Figures}{6}{Item.4}
+\contentsline {section}{List of Tables}{7}{Item.4}
+\contentsline {section}{\numberline {1}Section}{8}{section.1}
+\contentsline {subsection}{\numberline {1.1}Sub-Section}{10}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1}Sub-sub-Section}{10}{subsubsection.1.1.1}
+\contentsline {section}{References}{11}{subsubsection.1.1.1}
+\contentsline {section}{Appendices}{12}{subsubsection.1.1.1}
+\contentsline {section}{\numberline {A}Benjamin}{12}{appendix.A}
+\contentsline {section}{\numberline {B}Test}{12}{appendix.B}
